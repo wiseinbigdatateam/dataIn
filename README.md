@@ -1,3 +1,3 @@
 # datain
 ## springboot - vue.js
-- gradle 실행시 vue 또한 새로 빌드 됨
+- gradle 실행시 vue 또한 자동 빌드
