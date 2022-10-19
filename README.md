@@ -46,15 +46,18 @@
   - 인텔리제이를 기준으로 상단 메뉴의 view -> Tool Windows -> gradle 이나 우축의 Gradle을 클릭 해당 메뉴에서 좌측 상단의 새로고침을 클릭시에 build.gradle의 변경 사항을 적용 해준다.
   - build.gradle 재실행시에 node 및 npm이 해당 파일에 명시된 버전으로 다시 다운로드 되고 빌드가 진행 됨.
     - node 14.x 버전 이하에서 m1 맥에서 정상 작동하지 않음
+------------
 #### vue.js 정상 작동을 먼저 확인
   - vuefornt로 접근, vue 서버를 실행시켜서 정상적으로 페이지가 출력되는지 확인
     ```
     $ cd vuefront
     $ npm run serve
   - 정상 작동 한다면 종료
+------------
 #### Port 정보
   - vue.js 의 경우 현재 기본 port 인 3000 를 사용 중
   - springboot 의 경우 마찬가지로 기본 port 인 8080 를 사용 중
+------------
 #### vue.js 파일
   - springboot 와 연동되어있기 때문에 vue의 기본 경로가 아닌 src/main/resources 아래에 파일이 위치하고 있다.
     - 해당 내용은  vuefront/vue.config.js 에서 확인 가능
