@@ -5,9 +5,10 @@ plugins {
 	id 'java'
 }
 
+// 사용하고자하는 node 정보 추가
 node {
-	version = '14.16.1'
-	npmVersion = '7.18.1'
+	version = '16.18.0'
+	npmVersion = '8.19.2'
 	download = true
 	workDir = file("${project.buildDir}/nodejs")
 	npmWorkDir = file("${project.buildDir}/npm")
