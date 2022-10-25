@@ -2,6 +2,7 @@
 ## springboot - vue.js
 - Mac OS 환경을 기본으로 설명
 - IDE(개발도구)로서는 인텔리제이를 사용
+- vuefront 디렉토리 = frontend 부분
 
 ### 실행전 필요 요소
 - vue 사용을 위해 node.js 설치가 필요
@@ -61,3 +62,21 @@
 #### vue.js 파일
   - springboot 와 연동되어있기 때문에 vue의 기본 경로가 아닌 src/main/resources 아래에 파일이 위치하고 있다.
     - 해당 내용은  vuefront/vue.config.js 에서 확인 가능
+
+
+------------
+## 프로젝트 구조 설명 추가
+ahp, multi-faceted-evaluation(다면평가), satisfacion(만족도), survey(설문)의로 각각의 마이크로서비스용 springboot
+### 각 서비스별 위치한 디렉토리 관련 설명
+- domain(entity)
+  - DB table과 1 : 1 매칭 되는 부분
+- repository(DAO)
+  - domain(entity)를 통해서 데이터를 DB에 저장하는 부분
+- service
+  - frontend 부분에서 로직을 처리할수 있도록 하는 부분
+  - repository(DAO)에 정의된 로직을 처리하거나 domawin(entity)에 접근하는 부분
+  - DTO 파일 위치??
+- controller
+  - 클라이언트의 요청을 처리하는 부분
+  - domain(entity) 서비스로 의해 추상화 직접 접근 X
+  - ResponseBody에 데이터를 담아 반환
