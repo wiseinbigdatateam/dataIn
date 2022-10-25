@@ -1,1 +1,6 @@
 rootProject.name = 'dataIn'
+include 'survey'
+include 'ahp'
+include 'satisfaction'
+include 'multi-faceted-evaluation'
+
