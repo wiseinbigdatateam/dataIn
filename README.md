@@ -75,8 +75,8 @@ ahp, multi-faceted-evaluation(다면평가), satisfacion(만족도), survey(설�
 - service
   - frontend 부분에서 로직을 처리할수 있도록 하는 부분
   - repository(DAO)에 정의된 로직을 처리하거나 domawin(entity)에 접근하는 부분
-  - DTO 파일 위치??
 - controller
   - 클라이언트의 요청을 처리하는 부분
   - domain(entity) 서비스로 의해 추상화 직접 접근 X
   - ResponseBody에 데이터를 담아 반환
+  - DTO(Data Transfer Object) class 위치
