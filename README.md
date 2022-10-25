@@ -80,3 +80,4 @@ ahp, multi-faceted-evaluation(다면평가), satisfacion(만족도), survey(설�
   - domain(entity) 서비스로 의해 추상화 직접 접근 X
   - ResponseBody에 데이터를 담아 반환
   - DTO(Data Transfer Object) class 위치
+- 각 디렉토리 하위 resourcse 디렉토리 파일의 application.yml 파일에 springboot 포트 할당
