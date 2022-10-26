@@ -52,7 +52,9 @@
   - vuefornt로 접근, vue 서버를 실행시켜서 정상적으로 페이지가 출력되는지 확인
     ```
     $ cd vuefront
+    $ npm run build
     $ npm run serve
+  - src/main/resources/static 에 js 파일 및 css 파일 생성되는지 확인
   - 정상 작동 한다면 종료
 ------------
 #### Port 정보
