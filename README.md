@@ -62,6 +62,7 @@
 #### vue.js 파일
   - springboot 와 연동되어있기 때문에 vue의 기본 경로가 아닌 src/main/resources 아래에 파일이 위치하고 있다.
     - 해당 내용은  vuefront/vue.config.js 에서 확인 가능
+    - git에 해당 디렉토리 하위 파일들은 업로드 X
 
 
 ------------
