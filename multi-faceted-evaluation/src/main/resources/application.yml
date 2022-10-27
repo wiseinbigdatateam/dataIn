@@ -3,4 +3,4 @@ server:
 
 spring:
   application:
-    name : multi-faceted-evaluation
+    name : dataIn-multi-faceted-evaluation
